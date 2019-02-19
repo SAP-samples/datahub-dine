@@ -2,7 +2,7 @@ Loading of Data
 ====================
 
 
-> <b><i> Download the data files from [here](https://github.wdf.sap.corp/refapps/datahub-dine/tree/master/data) </i></b>
+> <b><i> Download the data files from [here](https://github.com/SAP/datahub-dine/tree/master/data) </i></b>
 
 
 
