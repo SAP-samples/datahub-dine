@@ -1,6 +1,6 @@
 ## Top 5 products based on product reviews
 
-> <b><i> Load the data required for the scenario by following this [tutorial](https://github.wdf.sap.corp/refapps/datahub-dine/blob/master/tutorials/loading%20of%20data/README.md) </i> </b>
+> <b><i> Load the data required for the scenario by following this [tutorial](https://github.com/SAP/datahub-dine/tree/master/tutorials/loading%20of%20data/README.md) </i> </b>
 
 
 1. open datahub launchpad and click on the modeler.
