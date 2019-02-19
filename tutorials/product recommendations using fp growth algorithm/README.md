@@ -3,7 +3,7 @@
 
 ![Alt text](./images/Picture1.png "Optional title")
 
-> <b><i> Load the data required for the scenario by following this [tutorial](https://github.wdf.sap.corp/refapps/datahub-dine/blob/master/tutorials/loading%20of%20data/README.md) </i> </b>
+> <b><i> Load the data required for the scenario by following this [tutorial](https://github.com/SAP/datahub-dine/tree/master/tutorials/loading%20of%20data/README.md) </i> </b>
 
 1. Open the Data Hub dashboard and open the modeler.
 
