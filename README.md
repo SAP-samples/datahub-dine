@@ -1,7 +1,7 @@
 DINE
 ============
-Data Hub INteractive Education(DINE) is a training content for Sap Data Hub. Our hands-on exercises are developed to show you how to use Sap Data Hub features. 
-Sap Data Hub allows you to connect to different data sources such as SAP Hana, SAP ERP, SAP BW, Oracle DB2, SQL Server, and many more and can process various data types; structured, semi-structured and unstructured using Kafka, streaming engine, text and image analysis, etc. SAP Data Hub can bring all your data together so you can work across them seamlessly. You can quickly develop your prototype on Data Hub and the result can be easily turned to a production level system since Data Hub takes care of execution, orchestrain, scheduling, and monitoring. Data Hub is developed on Kubernetes and therefore it is deployable on premise or in the cloud. It runs on a distributed execution engine and is designed for Big Data world by proving understanding on metadata in a Big Data landscape. 
+Data Hub INteractive Education(DINE) is a educational content for [SAP Data Hub](https://www.sap.com/products/data-hub.html). Our hands-on exercises are developed to show you how to use SAP Data Hub features. 
+SAP Data Hub allows you to connect to different data sources such as SAP HANA, SAP ERP, SAP BW, Oracle DB2, SQL Server, and many more and can process various data types; structured, semi-structured and unstructured using Kafka, streaming engine, text and image analysis, etc. SAP Data Hub can bring all your data together so you can work across them seamlessly. You can quickly develop your prototype on SAP Data Hub and the result can be easily turned to a production level system since SAP Data Hub takes care of execution, orchestration, scheduling, and monitoring. SAP Data Hub is developed on Kubernetes and therefore it is deployable on premise or in the cloud. It runs on a distributed execution engine and is designed for Big Data world by proving understanding on metadata in a Big Data landscape. 
 
 Click here(https://www.sap.com/products/data-hub.html) to learn more about SAP Data Hub.
 
@@ -41,7 +41,7 @@ Currently our dataset comprises of 6 files, which contain <b>customers</b>, <b>p
 
 - So basically we have 6 tables.
 
-- It is sythetic dataset based on real time usecases which we have taken from [SHINE](https://github.com/SAP/hana-shine-xsa) and we have enriched some of the data according to our needs.
+> <b><i> It is sythetic dataset derived from [SHINE](https://github.com/SAP/hana-shine-xsa) and is enriched to suit our usecases </i> </b>
 
 ### ER Diagram
 
@@ -57,9 +57,10 @@ To access the datasets, explore the [data](./data) folder in this repository.
 
 To learn Sap Data Hub, we will create a recommender system for Data Hub Market Place, an e-commerce platform which is developed for the purpose of demo and learning, where customers across the globe make thousands of purchases everyday. 
 
+Two scenarios are being discussed here:
 
- - [Sentiment Analyser](./tutorials/top%205%20products%20based%20on%20products%20reviews/README.md) : To build a pipeline which uses VORA text analysis engine to find the 5 most popular products based on customer reviews. Products are categorised based on the sentiment of their reviews. Python was used to implement this scenario.
+ - [Sentiment Analyser](./tutorials/top%205%20products%20based%20on%20products%20reviews/README.md) : Build a pipeline which uses VORA text analysis engine to find the 5 most popular products based on customer reviews. Products are categorised based on the sentiment of their reviews. This scenario is implemented is Python.
 
- - [Product Recommender](./tutorials/product%20recommendations%20using%20fp%20growth%20algorithm/README.md) : To build a pipeline which uses Machine Learning (ML) to recommend products based on the history of sales transactions. We use python as the programming language for Machine Learning Capabilities.
+ - [Product Recommender](./tutorials/product%20recommendations%20using%20fp%20growth%20algorithm/README.md) : Build a pipeline which uses Machine Learning (ML) to recommend products based on the history of sales transactions. This scenario is implemented using Python Machine Learning Libraries.
 
  
