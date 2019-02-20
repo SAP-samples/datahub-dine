@@ -1,6 +1,6 @@
 DINE
 ============
-Data Hub INteractive Education(DINE) is a educational content for [SAP Data Hub](https://www.sap.com/products/data-hub.html). Our hands-on exercises are developed to show you how to use SAP Data Hub features. 
+Data Hub INteractive Education(DINE) is an educational content for [SAP Data Hub](https://www.sap.com/products/data-hub.html). Our hands-on exercises are developed to show you how to use SAP Data Hub features. 
 SAP Data Hub allows you to connect to different data sources such as SAP HANA, SAP ERP, SAP BW, Oracle DB2, SQL Server, and many more and can process various data types; structured, semi-structured and unstructured using Kafka, streaming engine, text and image analysis, etc. SAP Data Hub can bring all your data together so you can work across them seamlessly. You can quickly develop your prototype on SAP Data Hub and the result can be easily turned to a production level system since SAP Data Hub takes care of execution, orchestration, scheduling, and monitoring. SAP Data Hub is developed on Kubernetes and therefore it is deployable on premise or in the cloud. It runs on a distributed execution engine and is designed for Big Data world by proving understanding on metadata in a Big Data landscape. 
 
 Click here(https://www.sap.com/products/data-hub.html) to learn more about SAP Data Hub.
