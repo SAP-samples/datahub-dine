@@ -3,7 +3,6 @@
 ## Overview
 
 Data Hub INteractive Education(DINE) is an educational content for [SAP Data Hub](https://www.sap.com/products/data-hub.html). Our hands-on exercises are developed to show you how to use SAP Data Hub features. 
-
 SAP Data Hub allows you to connect to different data sources such as SAP HANA, SAP ERP, SAP BW, Oracle DB2, SQL Server, and many more and can process various data types; structured, semi-structured and unstructured using Kafka, streaming engine, text and image analysis, etc. SAP Data Hub can bring all your data together so you can work across them seamlessly. You can quickly develop your prototype on SAP Data Hub and the result can be easily turned to a production level system since SAP Data Hub takes care of execution, orchestration, scheduling, and monitoring. SAP Data Hub is developed on Kubernetes and therefore it is deployable on premise or in the cloud. It runs on a distributed execution engine and is designed for Big Data world by proving understanding on metadata in a Big Data landscape. 
 
 Also go through the [official documentation](https://help.sap.com/viewer/p/SAP_DATA_HUB) of [SAP Data Hub](https://www.sap.com/products/data-hub.html)
@@ -23,15 +22,15 @@ You can also use [SAP Data Hub Developer Edition](https://blogs.sap.com/2017/12/
 
 ## Scenarios
 
-![Alt text](./tutorials/product%20recommendations%20using%20fp%20growth%20algorithm/images/Picture1.png "Optional title")
+![Alt text](./data/Picture1.png "Optional title")
 
 We will learn SAP Data Hub through the below scenarios which are based on dummy entity called as SAP Data Hub Market Place , an e-commerce platform which is developed for the purpose of demo and learning, where customers across the globe make thousands of purchases everyday.
 
 The scenarios are detailed below:
 
-- [Sentiment Analyser](./tutorials/top%205%20products%20based%20on%20products%20reviews/README.md) : This scenario is used to categorize products based on the reviews submitted by customers. This scenario is implemented is Python and uses  VORA text analysis engine to find the 5 most popular products based on customer reviews. Follow the [tutorial](./tutorials/top%205%20products%20based%20on%20products%20reviews/README.md) to implement this scenario.
+- [Customer Return Prediction](./tutorials/customer%20return%20prediction/README.md) :  This scenario is used to identify the products which can frequently be returned by the customer based on different parameter. This scenario is implemented is Python and uses sklearn library to implement decision tree classifier algorithm. Here in this scenario we are reading data from different data sources and using SAP Analytics cloud to visualize the result dataset. Follow the [tutorial](https://github.wdf.sap.corp/refapps/datahub-dine/tree/master/tutorials/customer%20return%20prediction) to implement this scenario.
 
-- [Product Recommender](./tutorials/product%20recommendations%20using%20fp%20growth%20algorithm/README.md) : This scenario is used to recommend the products which are frequently bought together based on sales history. This scenario is implemented using Python Machine Learning Libraries. Follow the [tutorial](./tutorials/product%20recommendations%20using%20fp%20growth%20algorithm/README.md) to implement this scenario.
+More scenarios can be found in the [teched-2018](https://github.com/SAP/datahub-dine/tree/teched-2018) branch.
 
  
 ## Datasets
@@ -50,7 +49,9 @@ Our dataset for the above scenarios comprise of 6 files, which contain <b>custom
 
 - Customer Reviews about the products are stored in <b>REVIEW</b> table.
 
-- So basically we have 6 tables.
+- Information about returns made by customers are stored in <b>RETURN</b> table. 
+
+- So basically we have 7 tables.
 
 > <b><i> It is sythetic dataset derived from [SHINE](https://github.com/SAP/hana-shine-xsa) and is enriched to suit our usecases </i> </b>
 
@@ -69,7 +70,7 @@ None
 
 ## Support
 
-Please use GitHub [issues](https://github.com/SAP/datahub-dine/issues/new) for any bugs to be reported.
+Please use GitHub issues for any bugs to be reported.
 
 
 ## License

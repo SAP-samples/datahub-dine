@@ -1,0 +1,3 @@
+FROM $com.sap.python27
+
+RUN pip install pandas numpy scipy sklearn pydotplus
