@@ -71,7 +71,7 @@
 15. Click on “Open Configuration” and provide the following properties in the Configuration window.
 
       - Service: file
-      - Path: data/review.csv
+      - Path: data/reviews.csv
       - Only read on change: true
 
    Let the other properties remains the same.
