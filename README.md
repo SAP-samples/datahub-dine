@@ -28,7 +28,7 @@ We will learn SAP Data Hub through the below scenarios which are based on dummy 
 
 The scenarios are detailed below:
 
-- [Customer Return Prediction](./tutorials/customer%20return%20prediction/README.md) :  This scenario is used to identify the products which can frequently be returned by the customer based on different parameter. This scenario is implemented is Python and uses sklearn library to implement decision tree classifier algorithm. Here in this scenario we are reading data from different data sources and using SAP Analytics cloud to visualize the result dataset. Follow the [tutorial](https://github.wdf.sap.corp/refapps/datahub-dine/tree/master/tutorials/customer%20return%20prediction) to implement this scenario.
+- [Customer Return Prediction](./tutorials/customer%20return%20prediction/README.md) :  This scenario is used to identify the products which can frequently be returned by the customer based on different parameter. This scenario is implemented is Python and uses sklearn library to implement decision tree classifier algorithm. Here in this scenario we are reading data from different data sources and using SAP Analytics cloud to visualize the result dataset. Follow the [tutorial](./tutorials/customer%20return%20prediction) to implement this scenario.
 
 More scenarios can be found in the [teched-2018](https://github.com/SAP/datahub-dine/tree/teched-2018) branch.
 
