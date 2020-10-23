@@ -1,5 +1,7 @@
 # DataHub Interactive Education (DINE)
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/datahub-dine)](https://api.reuse.software/info/github.com/SAP-samples/datahub-dine)
+
 ## Overview
 
 Data Hub INteractive Education(DINE) is an educational content for [SAP Data Hub](https://www.sap.com/products/data-hub.html). Our hands-on exercises are developed to show you how to use SAP Data Hub features. 
